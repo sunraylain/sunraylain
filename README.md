@@ -20,6 +20,10 @@
 
 ## 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂
 
+<div style="display:flex; width:100%;">
+
+<div style="width:50%; padding-right:32px;">
+
 ### 𝚟𝚒𝚍𝚎𝚘_𝚊𝚗𝚊𝚕𝚢𝚜𝚎𝚛
 
 Python · Docker · Redis · Faster-Whisper
@@ -31,9 +35,9 @@ and asynchronous video processing.
 
 </div>
 
-<div style="width: 1px; background: #202830; margin: 0 32px;"></div>
+<div style="width:1px; min-height:120px; background:#202830;"></div>
 
-<div style="width: 50%; padding-left: 32px;">
+<div style="width:50%; padding-left:32px;">
 
 ### 𝚗𝚘𝚝𝚑𝚒𝚗𝚐_𝚑𝚎𝚛𝚎_𝚢𝚎𝚝...
 
