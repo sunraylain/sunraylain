@@ -76,38 +76,10 @@ on architecture, interfaces and system design.
 
 <br>
 
-**𝙲𝚄𝚁𝚁𝙴𝙽𝚃𝙻𝚈**
-
-`building` desktop applications  
-`learning` software engineering  
-`exploring` systems & architecture
-
-<br>
-
-**𝙸𝙽𝚃𝙴𝚁𝙴𝚂𝚃𝚂**
-
-`Electronic Music` · `Sound Design` · `Creative Coding`
-
-<br>
-
-<table width="100%">
-<tr>
-
-<td width="65%" valign="top">
-
 **𝙰𝙲𝚃𝙸𝚅𝙸𝚃𝚈**
 
 <img src="./profile/metrics.svg" width="100%">
 
-</td>
+<br>
 
-<td width="35%" valign="top">
-
-**𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴𝚂**
-
-<img src="./profile/top-langs.svg" width="100%">
-
-</td>
-
-</tr>
-</table>
+<img src="./profile/top-langs.svg" width="55%">
