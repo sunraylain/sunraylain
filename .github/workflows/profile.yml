@@ -13,20 +13,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Generate profile statistics
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: 'username=${{ github.repository_owner }}&show_icons=true&bg_color=0D1117&title_color=D8D1C5&text_color=B7C0C8&icon_color=8FAEA6&border_color=202830&hide_border=true&border_radius=0&locale=en'
           path: profile/profile-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          options: >-
+            username=${{ github.repository_owner }}&
+            show_icons=true&
+            bg_color=0D1117&
+            title_color=D8D1C5&
+            text_color=B7C0C8&
+            icon_color=8FAEA6&
+            border_color=202830&
+            hide_border=true&
+            border_radius=0&
+            locale=en
 
       - name: Commit statistics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/profile-stats.svg
-          git commit -m "update profile statistics" || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -m "update profile statistics"
           git push
