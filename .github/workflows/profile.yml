@@ -39,7 +39,7 @@ jobs:
       - name: Generate languages
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
-          card: langs
+          card: top-langs
           path: profile/profile-languages.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
           options: >-
