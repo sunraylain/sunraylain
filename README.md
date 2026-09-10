@@ -20,14 +20,14 @@
 
 ## 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂
 
-<img align="right" width="46%" src="./profile/top-langs.svg">
+<img align="right" width="46%" src="./profile/profile-stats.svg">
 
 **`01`**
 
 ### Video Summarizer
 
 A project focused on processing  
-and working with video content.
+and working with video content
 
 `Python` · `FastAPI` · `Redis` · `Docker`
 
@@ -35,9 +35,9 @@ and working with video content.
 
 **`02`**
 
-### Nothing here yet.
+### Nothing here yet
 
-Another project is on its way.
+Another project is on its way
 
 `coming soon`
 
