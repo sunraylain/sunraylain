@@ -20,7 +20,7 @@
 
 ## 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed;">
 <tr>
 
 <td width="50%" valign="top" align="center">
@@ -48,7 +48,7 @@ and asynchronous video processing.
 
 <table width="100%" height="190" border="0" cellspacing="0" cellpadding="18">
 <tr>
-<td bgcolor="#0D1117" valign="middle">
+<td bgcolor="#0D1117" valign="top">
 
 ### 𝚗𝚘𝚝𝚑𝚒𝚗𝚐_𝚑𝚎𝚛𝚎_𝚢𝚎𝚝...
 
