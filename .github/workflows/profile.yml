@@ -27,29 +27,29 @@ jobs:
       # Main statistics card
       # ─────────────────────────────────────
 
-      - name: Generate profile statistics
-        uses: cicirello/user-statistician@v1
-        with:
-          image-file: profile/profile-stats.svg
-          include-title: false
-          colors: "#0D1117 #202830 #7F9FBC #C7D0D5 #9AA6AE"
-          max-languages: 6
-          animated-language-chart: false
-          image-width: 470
-          category-order: repositories, contributions, languages
-          hide-keys: >-
-            general,
-            starredBy,
-            forkedBy,
-            watchedBy,
-            templates,
-            archived,
-            private
-          top-icon: none
-          border-radius: 0
-          show-border: false
-          locale: en
-          commit-and-push: false
+        - name: Generate profile statistics
+          uses: cicirello/user-statistician@v1
+          with:
+            image-file: profile/profile-stats.svg
+            include-title: false
+            colors: "#0D1117 #202830 #8FAEA6 #D8D1C5 #B7C0C8"
+            max-languages: 6
+            animated-language-chart: false
+            image-width: 470
+            category-order: repositories, contributions, languages
+            hide-keys: >-
+              general,
+              starredBy,
+              forkedBy,
+              watchedBy,
+              templates,
+              archived,
+              private
+            top-icon: none
+            border-radius: 0
+            show-border: false
+            locale: en
+            commit-and-push: false
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
