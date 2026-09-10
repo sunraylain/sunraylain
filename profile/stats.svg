@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Teo Solnyshkin&#39;s GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  : 45, Total PRs: 0, Total Issues: 0, Contributed to (last year): 3</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  : 56, Total PRs: 0, Total Issues: 0, Contributed to (last year): 3</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 250.04102714708748;
+        stroke-dashoffset: 249.73263323746866;
       }
     }
   
@@ -114,9 +114,9 @@
           class="card-bg"
           x="0.5"
           y="0.5"
-          rx="4"
+          rx="6"
           height="99%"
-          stroke="#30363D"
+          stroke="#202830"
           width="327.766664981842"
           fill="#0D1117"
           stroke-opacity="1"
@@ -159,7 +159,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >45</text>
+      >56</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
