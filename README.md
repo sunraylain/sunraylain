@@ -49,7 +49,3 @@ style="border:0!important; border-left:1px solid #30363D!important; padding:0 0 
 </tr>
 
 </table>
-
-## 𝙰𝙲𝚃𝙸𝚅𝙸𝚃𝚈
-
-<img src="./profile/metrics.svg" width="100%">
