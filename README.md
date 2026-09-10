@@ -20,15 +20,44 @@
 
 ## 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂
 
-<div align="center">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
 
-**`01` Video Summarizer**   ·   **`02` Nothing here yet**
+<td width="48%" align="center" valign="top">
 
-A project focused on processing   ·   Another project is on its way
+### 𝚟𝚒𝚍𝚎𝚘_𝚜𝚞𝚖𝚖𝚊𝚛𝚒𝚣𝚎𝚛
 
-`Python` · `FastAPI` · `Redis` · `Docker` · `coming soon`
+Python · Docker · Redis · Faster-Whisper
 
-</div>
+Speech transcription and video processing pipeline.
+Uploads a video, processes it asynchronously and
+generates a timestamped result with extracted highlights.
+
+`Python` `FastAPI` `Docker` `Redis` `RQ`
+
+</td>
+
+<td width="4%" align="center" valign="middle">
+<div style="width: 1px; height: 120px; background-color: #202830;"></div>
+</td>
+
+<td width="48%" align="center" valign="top">
+
+### 𝚊𝚞𝚍𝚒𝚘_𝚍𝚎𝚟
+
+C · C++ · DSP · VST · Embedded
+
+Experiments with digital audio processing,
+signal routing and software instruments.
+Focused on the intersection of low-level systems,
+sound and electronic music hardware.
+
+`C` `C++` `DSP` `VST` `ESP32`
+
+</td>
+
+</tr>
+</table>
 
 ## 𝙰𝙲𝚃𝙸𝚅𝙸𝚃𝚈
 
