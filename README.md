@@ -1,8 +1,8 @@
 # 𝙷𝚎𝚕𝚕𝚘, 𝙸 𝚊𝚖 𝚂𝚞𝚗𝚛𝚊𝚢𝚕𝚊𝚒𝚗
-
-<img align="right" width="47%" src="./profile/profile-stats.svg">
-<img align="right" width="47%" src="./profile/profile-languages.svg">
-
+<div align="right">
+	<img align="right" width="47%" src="./profile/profile-stats.svg">
+	<img align="right" width="47%" src="./profile/profile-languages.svg">
+</div>
 ### 𝚂𝚃𝙰𝙲𝙺
 
 `C` · `C++` · `Python` · `Java`
