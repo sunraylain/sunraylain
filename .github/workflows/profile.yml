@@ -1,9 +1,9 @@
 name: Update profile
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 3 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,27 +13,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
 
       - name: Generate profile statistics
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: >-
-            username=${{ github.repository_owner }}&
-            show_icons=true&
-            bg_color=0D1117&
-            title_color=D8D1C5&
-            text_color=B7C0C8&
-            icon_color=8FAEA6&
-            border_color=202830&
-            hide_border=true&
-            border_radius=0&
-            locale=en
+          options: 'username=${{ github.repository_owner }}&show_icons=true&bg_color=0D1117&title_color=D8D1C5&text_color=B7C0C8&icon_color=8FAEA6&border_color=202830&hide_border=true&border_radius=0&locale=en'
           path: profile/profile-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit stats
+      - name: Commit statistics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
