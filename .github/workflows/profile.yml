@@ -1,4 +1,4 @@
-name: Update profile cards
+name: Update profile
 
 on:
   schedule:
@@ -14,50 +14,65 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
-      - name: Generate GitHub stats
+      # ─────────────────────────────────────────────
+      # GitHub Stats
+      # ─────────────────────────────────────────────
+
+      - name: Generate stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: >-
-            username=sunraylain
-            &show_icons=true
-            &hide_title=true
-            &hide_rank=true
-            &bg_color=0D1117
-            &title_color=D8D1C5
-            &text_color=B7C0C8
-            &icon_color=8FAEA6
-            &border_color=30363D
-            &border_radius=4
+            username=sunraylain&
+            show_icons=true&
+            hide_title=true&
+            hide_rank=true&
+            bg_color=0D1117&
+            title_color=D8D1C5&
+            text_color=B7C0C8&
+            icon_color=8FAEA6&
+            border_color=30363D&
+            border_radius=4
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ─────────────────────────────────────────────
+      # Top Languages
+      # ─────────────────────────────────────────────
 
       - name: Generate top languages
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: >-
-            username=sunraylain
-            &layout=compact
-            &langs_count=6
-            &hide_title=true
-            &bg_color=0D1117
-            &title_color=D8D1C5
-            &text_color=B7C0C8
-            &border_color=30363D
-            &border_radius=4
+            username=sunraylain&
+            layout=compact&
+            langs_count=6&
+            hide_title=true&
+            bg_color=0D1117&
+            title_color=D8D1C5&
+            text_color=B7C0C8&
+            border_color=30363D&
+            border_radius=4
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ─────────────────────────────────────────────
+      # GitHub Metrics
+      # ─────────────────────────────────────────────
 
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
           filename: profile/metrics.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           base: header
+
           config_output: svg
           config_timezone: Europe/London
 
@@ -68,23 +83,28 @@ jobs:
             activity,
             repositories
 
+          # Contribution calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
+          # Languages
           plugin_languages: yes
           plugin_languages_limit: 6
           plugin_languages_threshold: 1%
           plugin_languages_details: percentage
           plugin_languages_other: yes
 
+          # Recent activity
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 30
           plugin_activity_timestamps: yes
 
+          # Repositories
           plugin_repositories: yes
           plugin_repositories_pinned: 3
 
+          # Custom appearance
           extras_css: |
             svg {
               background: #0D1117 !important;
@@ -103,7 +123,11 @@ jobs:
               color: #6F7D87 !important;
             }
 
-      - name: Commit generated cards
+      # ─────────────────────────────────────────────
+      # Commit generated files
+      # ─────────────────────────────────────────────
+
+      - name: Commit profile cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

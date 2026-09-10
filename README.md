@@ -2,6 +2,7 @@
 
 <table width="100%">
 <tr>
+
 <td width="50%" valign="top">
 
 **𝚂𝙾𝙵𝚃𝚆𝙰𝚁𝙴 𝙴𝙽𝙶𝙸𝙽𝙴𝙴𝚁𝙸𝙽𝙶**
@@ -28,9 +29,12 @@ architecture, systems, interfaces and the code between them.
 
 <td width="50%" valign="top">
 
+**𝚂𝚃𝙰𝚃𝚂**
+
 <img src="./profile/stats.svg" width="100%">
 
 </td>
+
 </tr>
 </table>
 
@@ -91,11 +95,15 @@ on architecture, interfaces and system design.
 
 <td width="65%" valign="top">
 
+**𝙰𝙲𝚃𝙸𝚅𝙸𝚃𝚈**
+
 <img src="./profile/metrics.svg" width="100%">
 
 </td>
 
 <td width="35%" valign="top">
+
+**𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴𝚂**
 
 <img src="./profile/top-langs.svg" width="100%">
 
