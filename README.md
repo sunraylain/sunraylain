@@ -23,7 +23,11 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
 
-<td width="48%" align="center" valign="top">
+<td width="50%" valign="top" align="center">
+
+<table width="100%" height="190" border="1" bordercolor="#202830" cellspacing="0" cellpadding="18">
+<tr>
+<td bgcolor="#0D1117" valign="top">
 
 ### 𝚟𝚒𝚍𝚎𝚘_𝚊𝚗𝚊𝚕𝚢𝚜𝚎𝚛
 
@@ -32,17 +36,26 @@ Python · Docker · Redis · Faster-Whisper
 A video analysis application for speech transcription
 and asynchronous video processing.
 
-`Python` `FastAPI` `Docker` `Redis` `RQ`
+`Python` · `FastAPI` · `Docker` · `Redis` · `RQ`
+
+</td>
+</tr>
+</table>
 
 </td>
 
-<td width="4%" align="center" valign="middle">
-<div style="width: 1px; height: 120px; background-color: #202830;"></div>
-</td>
+<td width="50%" valign="top" align="center"
+style="border-left: 1px solid #202830;">
 
-<td width="48%" align="center" valign="top">
+<table width="100%" height="190" border="1" bordercolor="#202830" cellspacing="0" cellpadding="18">
+<tr>
+<td bgcolor="#0D1117" valign="middle">
 
 ### 𝚗𝚘𝚝𝚑𝚒𝚗𝚐_𝚑𝚎𝚛𝚎_𝚢𝚎𝚝...
+
+</td>
+</tr>
+</table>
 
 </td>
 
