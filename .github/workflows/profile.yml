@@ -32,7 +32,7 @@ jobs:
           card: top-langs
           path: profile/top-langs.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
-          options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_border=true&border_radius=0&bg_color=0D1117&title_color=D8D1C5&text_color=B7C0C8&border_color=0D1117&locale=en'
+          options: 'username=${{ github.repository_owner }}&langs_count=6&hide_border=true&border_radius=0&bg_color=0D1117&title_color=D8D1C5&text_color=B7C0C8&border_color=0D1117&locale=en'
 
       - name: Commit statistics
         run: |
