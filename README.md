@@ -20,11 +20,13 @@
 
 ## 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: 0;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+style="border:0!important; border-collapse:collapse!important;">
 
-<tr>
+<tr style="border:0!important; background:transparent!important;">
 
-<td width="49%" valign="top" style="border: 0;">
+<td width="50%" valign="top"
+style="border:0!important; padding:0 32px 0 0!important; background:transparent!important;">
 
 ### 𝚟𝚒𝚍𝚎𝚘_𝚊𝚗𝚊𝚕𝚢𝚜𝚎𝚛
 
@@ -37,13 +39,8 @@ and asynchronous video processing.
 
 </td>
 
-<td width="2%" align="center" valign="middle" style="border: 0;">
-
-<img src="./profile/divider.svg" width="1" height="100">
-
-</td>
-
-<td width="49%" valign="top" style="border: 0;">
+<td width="50%" valign="top"
+style="border:0!important; border-left:1px solid #30363D!important; padding:0 0 0 32px!important; background:transparent!important;">
 
 ### 𝚗𝚘𝚝𝚑𝚒𝚗𝚐_𝚑𝚎𝚛𝚎_𝚢𝚎𝚝...
 
