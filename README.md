@@ -1,6 +1,6 @@
 # 𝙷𝚎𝚕𝚕𝚘, 𝙸 𝚊𝚖 𝚂𝚞𝚗𝚛𝚊𝚢𝚕𝚊𝚒𝚗
 
-<img align="right" width="48%" src="./profile/stats.svg">
+<img align="right" width="46%" src="./profile/stats.svg">
 
 ### 𝚂𝚃𝙰𝙲𝙺
 
@@ -18,13 +18,13 @@
 
 <br clear="all">
 
-### 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂
+## 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂
 
-<img align="right" width="48%" src="./profile/top-langs.svg">
+<img align="right" width="46%" src="./profile/top-langs.svg">
 
 **`01`**
 
-#### Video Summarizer
+### Video Summarizer
 
 A project focused on processing  
 and working with video content.
@@ -35,7 +35,7 @@ and working with video content.
 
 **`02`**
 
-#### Nothing here yet.
+### Nothing here yet.
 
 Another project is on its way.
 
@@ -43,6 +43,6 @@ Another project is on its way.
 
 <br clear="all">
 
-### 𝙰𝙲𝚃𝙸𝚅𝙸𝚃𝚈
+## 𝙰𝙲𝚃𝙸𝚅𝙸𝚃𝚈
 
 <img src="./profile/metrics.svg" width="100%">
