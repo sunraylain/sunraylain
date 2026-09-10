@@ -20,30 +20,38 @@
 
 ### 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂
 
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width="50%" valign="top">
+
 **`01`**
 
-### Video Summarizer
+#### Video Summarizer
 
 A project focused on processing  
 and working with video content.
 
 `Python` · `FastAPI` · `Redis` · `Docker`
 
-<br>
+</td>
+
+<td width="50%" valign="top">
 
 **`02`**
 
-### Nothing here yet.
+#### Nothing here yet.
 
 Another project is on its way.
 
 `coming soon`
 
-<br>
+</td>
+</tr>
+</table>
 
 ### 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴𝚂
 
-<img src="./profile/top-langs.svg" width="55%">
+<img src="./profile/top-langs.svg" width="100%">
 
 ### 𝙰𝙲𝚃𝙸𝚅𝙸𝚃𝚈
 
