@@ -3,72 +3,148 @@
 <table width="100%">
 <tr>
 
-<td width="60%" valign="top">
+<td width="58%" valign="top">
+
+**𝙰𝙱𝙾𝚄𝚃**
+
+<hr>
+
+Software Engineering student building **desktop applications**.
+
+I like understanding how things work underneath the interface —
+from application architecture and system design to the code itself.
+
+<br>
+
+**𝙵𝙾𝙲𝚄𝚂**
+
+<hr>
+
+`Desktop Applications`  
+`Software Architecture`  
+`Systems Programming`  
+`Application Development`
+
+<br><br>
 
 **𝙲𝙾𝚁𝙴**
 
 <hr>
 
-<img src="https://img.shields.io/badge/C-18202A?style=flat-square&logo=c&logoColor=A8B9CC">
-<img src="https://img.shields.io/badge/C%2B%2B-18202A?style=flat-square&logo=c%2B%2B&logoColor=659AD2">
-<img src="https://img.shields.io/badge/Python-18202A?style=flat-square&logo=python&logoColor=3776AB">
-<img src="https://img.shields.io/badge/Java-18202A?style=flat-square&logo=openjdk&logoColor=ED8B00">
+<img src="https://img.shields.io/badge/C-18202A?style=flat-square&logo=c&logoColor=8FAEA6">
+<img src="https://img.shields.io/badge/C%2B%2B-18202A?style=flat-square&logo=c%2B%2B&logoColor=7F9FBC">
+<img src="https://img.shields.io/badge/Python-18202A?style=flat-square&logo=python&logoColor=8FAEA6">
+<img src="https://img.shields.io/badge/Java-18202A?style=flat-square&logo=openjdk&logoColor=D8D1C5">
 
 <br><br>
 
-**𝚆𝙴𝙱**
+**𝙳𝙴𝚂𝙺𝚃𝙾𝙿**
 
 <hr>
 
-<img src="https://img.shields.io/badge/HTML5-18202A?style=flat-square&logo=html5&logoColor=E34F26">
-<img src="https://img.shields.io/badge/CSS3-18202A?style=flat-square&logo=css3&logoColor=1572B6">
+<img src="https://img.shields.io/badge/Desktop_Development-18202A?style=flat-square&logo=windows&logoColor=7F9FBC">
+<img src="https://img.shields.io/badge/GUI_Development-18202A?style=flat-square&logo=qt&logoColor=8FAEA6">
+<img src="https://img.shields.io/badge/Application_Design-18202A?style=flat-square&logo=codepen&logoColor=D8D1C5">
 
 <br><br>
 
-**𝙳𝙴𝚅**
+**𝚃𝙾𝙾𝙻𝚂**
 
 <hr>
 
-<img src="https://img.shields.io/badge/Git-18202A?style=flat-square&logo=git&logoColor=F05032">
-<img src="https://img.shields.io/badge/Bash-18202A?style=flat-square&logo=gnu-bash&logoColor=4EAA25">
-<img src="https://img.shields.io/badge/Docker-18202A?style=flat-square&logo=docker&logoColor=2496ED">
-<img src="https://img.shields.io/badge/Debian-18202A?style=flat-square&logo=debian&logoColor=A81D33">
+<img src="https://img.shields.io/badge/Git-18202A?style=flat-square&logo=git&logoColor=8FAEA6">
+<img src="https://img.shields.io/badge/Bash-18202A?style=flat-square&logo=gnu-bash&logoColor=8FAEA6">
+<img src="https://img.shields.io/badge/Docker-18202A?style=flat-square&logo=docker&logoColor=7F9FBC">
+<img src="https://img.shields.io/badge/Debian-18202A?style=flat-square&logo=debian&logoColor=D8D1C5">
 
 <br><br>
 
-**𝙸𝙳𝙴**
+**𝙴𝙽𝚅𝙸𝚁𝙾𝙽𝙼𝙴𝙽𝚃**
 
 <hr>
 
-<img src="https://img.shields.io/badge/Visual_Studio-18202A?style=flat-square&logo=visualstudio&logoColor=5C2D91">
-<img src="https://img.shields.io/badge/PyCharm-18202A?style=flat-square&logo=pycharm&logoColor=21D789">
-<img src="https://img.shields.io/badge/IntelliJ_IDEA-18202A?style=flat-square&logo=intellij-idea&logoColor=FE315D">
-
-<br><br>
-
-**𝙰𝚄𝙳𝙸𝙾**
-
-<hr>
-
-<img src="https://img.shields.io/badge/MIDI-18202A?style=flat-square&logo=midi&logoColor=FFFFFF">
-<img src="https://img.shields.io/badge/VST3-18202A?style=flat-square&logo=vst&logoColor=8AB4F8">
-<img src="https://img.shields.io/badge/Notepad%2B%2B-18202A?style=flat-square&logo=notepad%2B%2B&logoColor=90E59A">
+<img src="https://img.shields.io/badge/Visual_Studio-18202A?style=flat-square&logo=visualstudio&logoColor=7F9FBC">
+<img src="https://img.shields.io/badge/PyCharm-18202A?style=flat-square&logo=pycharm&logoColor=8FAEA6">
+<img src="https://img.shields.io/badge/IntelliJ_IDEA-18202A?style=flat-square&logo=intellij-idea&logoColor=D8D1C5">
 
 </td>
 
-<td width="40%" valign="top">
+
+<td width="42%" valign="top">
 
 **𝚂𝚃𝙰𝚃𝚂**
 
 <hr>
 
-<img src="./profile/stats.svg" width="100%">
+<img src="https://github-readme-stats.vercel.app/api?username=sunraylain&show_icons=true&hide_title=true&hide_border=true&bg_color=0D1117&title_color=8FAEA6&text_color=D8D1C5&icon_color=7F9FBC">
 
 <br>
 
-<img src="./profile/top-langs.svg" width="100%">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunraylain&layout=compact&hide_title=true&hide_border=true&bg_color=0D1117&title_color=8FAEA6&text_color=D8D1C5">
+
+<br><br>
+
+**𝙽𝙾𝚆**
+
+<hr>
+
+`Building desktop applications`
+
+`Studying software engineering`
+
+`Exploring system architecture`
 
 </td>
 
 </tr>
 </table>
+
+<br>
+
+**𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂**
+
+<hr>
+
+<table width="100%">
+<tr>
+
+<td width="50%" valign="top">
+
+### `01` — Desktop Software
+
+Applications built with a focus on architecture, usability and performance.
+
+`C++` · `Python` · `Java`
+
+</td>
+
+<td width="50%" valign="top">
+
+### `02` — Systems & Tools
+
+Small utilities, experiments and tools created to understand systems at a deeper level.
+
+`C` · `C++` · `Bash`
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+**𝙸𝙽𝚃𝙴𝚁𝙴𝚂𝚃𝚂**
+
+<hr>
+
+`Software Engineering` · `Desktop Development` · `Systems`  
+`Electronic Music` · `Sound Design` · `Creative Coding`
+
+<br>
+
+```text
+────────────────────────────────────────────────────────
+
+        build things · understand things · keep learning
+
+────────────────────────────────────────────────────────
