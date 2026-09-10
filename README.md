@@ -25,7 +25,7 @@
 
 <td width="50%" valign="top" align="center">
 
-<table width="100%" height="190" border="1" bordercolor="#202830" cellspacing="0" cellpadding="18">
+<table width="100%" height="190" border="0" cellspacing="0" cellpadding="18">
 <tr>
 <td bgcolor="#0D1117" valign="top">
 
@@ -44,10 +44,9 @@ and asynchronous video processing.
 
 </td>
 
-<td width="50%" valign="top" align="center"
-style="border-left: 1px solid #202830;">
+<td width="50%" valign="top" align="center" style="border-left: 1px solid #202830;">
 
-<table width="100%" height="190" border="1" bordercolor="#202830" cellspacing="0" cellpadding="18">
+<table width="100%" height="190" border="0" cellspacing="0" cellpadding="18">
 <tr>
 <td bgcolor="#0D1117" valign="middle">
 
