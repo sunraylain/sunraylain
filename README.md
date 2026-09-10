@@ -5,23 +5,21 @@
 
 <td width="50%" valign="top">
 
-**𝚂𝙾𝙵𝚃𝚆𝙰𝚁𝙴 𝙴𝙽𝙶𝙸𝙽𝙴𝙴𝚁𝙸𝙽𝙶**
-
-Software Engineering student focused on  
-**desktop application development**.
-
-I enjoy building software from the inside out —  
-architecture, systems, interfaces and the code between them.
-
-<br>
+**𝚂𝚃𝙰𝙲𝙺**
 
 `C` · `C++` · `Python` · `Java`
 
 <br>
 
-**𝚃𝙾𝙾𝙻𝙸𝙽𝙶**
+**𝚃𝙴𝙲𝙷𝙽𝙾𝙻𝙾𝙶𝙸𝙴𝚂**
 
-`Git` · `Bash` · `Docker` · `Debian`
+`CMake` · `Qt` · `FastAPI` · `Redis` · `Docker`
+
+`Git` · `Bash` · `Linux` · `Debian`
+
+<br>
+
+**𝚃𝙾𝙾𝙻𝚂**
 
 `Visual Studio` · `PyCharm` · `IntelliJ IDEA`
 
@@ -82,4 +80,6 @@ on architecture, interfaces and system design.
 
 <br>
 
-<img src="./profile/top-langs.svg" width="55%">
+**𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴𝚂**
+
+<img src="./profile/top-langs.svg" width="100%">
