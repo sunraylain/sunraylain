@@ -17,16 +17,13 @@ architecture, systems, interfaces and the code between them.
 
 `C` · `C++` · `Python` · `Java`
 
-`Desktop Applications` · `Architecture` · `Systems`
-
 <br>
 
-**𝙵𝙾𝙲𝚄𝚂**
+**𝚃𝙾𝙾𝙻𝙸𝙽𝙶**
 
-Desktop software  
-Application architecture  
-System design  
-Clean and maintainable code
+`Git` · `Bash` · `Docker` · `Debian`
+
+`Visual Studio` · `PyCharm` · `IntelliJ IDEA`
 
 </td>
 
@@ -34,7 +31,7 @@ Clean and maintainable code
 
 **𝚂𝚃𝙰𝚃𝚂**
 
-<!-- stats will go here -->
+<!-- GitHub stats -->
 
 </td>
 
