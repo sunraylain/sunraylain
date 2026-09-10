@@ -27,48 +27,16 @@ jobs:
       # Main statistics card
       # ─────────────────────────────────────
 
-     - name: Generate profile statistics
-       uses: cicirello/user-statistician@v1
-       with:
-        image-file: profile/profile-stats.svg
-        include-title: false
-        colors: "#0D1117 #202830 #7F9FBC #C7D0D5 #9AA6AE"
-        max-languages: 6
-        animated-language-chart: false
-        image-width: 470
-        category-order: repositories, contributions, languages
-        hide-keys: >-
-            general,
-            starredBy,
-            forkedBy,
-            watchedBy,
-            templates,
-            archived,
-            private
-        top-icon: none
-        border-radius: 6
-        show-border: false
-        locale: en
-        commit-and-push: false
-
-      # ─────────────────────────────────────
-      # Detailed profile statistics
-      # ─────────────────────────────────────
-
       - name: Generate profile statistics
         uses: cicirello/user-statistician@v1
         with:
           image-file: profile/profile-stats.svg
           include-title: false
-
           colors: "#0D1117 #202830 #7F9FBC #C7D0D5 #9AA6AE"
-
           max-languages: 6
           animated-language-chart: false
           image-width: 470
-
           category-order: repositories, contributions, languages
-
           hide-keys: >-
             general,
             starredBy,
@@ -77,92 +45,17 @@ jobs:
             templates,
             archived,
             private
-
+          top-icon: none
           border-radius: 0
           show-border: false
+          locale: en
           commit-and-push: false
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # ─────────────────────────────────────
-      # Recent coding habits
-      # ─────────────────────────────────────
-
-      - name: Generate metrics
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-          base: ""
-          output_action: none
-
-          config_output: svg
-          config_display: large
-          config_timezone: Europe/London
-          config_padding: 0
-
-          config_order: >-
-            habits
-
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-
-          plugin_habits_facts: no
-
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_trim: yes
-
-          plugin_habits_languages_limit: 3
-          plugin_habits_languages_threshold: 1%
-
-          extras_css: |
-            svg {
-              background: #0D1117 !important;
-            }
-
-            text {
-              fill: #B7C0C8 !important;
-            }
-
-            .text {
-              fill: #B7C0C8 !important;
-            }
-
-            .text-muted {
-              fill: #6F7D87 !important;
-            }
-
-            .field {
-              fill: #B7C0C8 !important;
-            }
-
-            .title {
-              fill: #D8D1C5 !important;
-            }
-
-            h1,
-            h2,
-            h3 {
-              fill: #D8D1C5 !important;
-              color: #D8D1C5 !important;
-              font-family: monospace !important;
-            }
-
-      # ─────────────────────────────────────
-      # Move generated metrics
-      # ─────────────────────────────────────
-
-      - name: Move metrics
-        run: |
-          mkdir -p profile
-          cp /metrics_renders/metrics.svg profile/metrics.svg
-
-      # ─────────────────────────────────────
-      # Commit generated SVGs
+      # Commit generated profile statistics
       # ─────────────────────────────────────
 
       - name: Commit generated files
