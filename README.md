@@ -2,6 +2,7 @@
 
 <table width="100%">
 <tr>
+
 <td width="50%" valign="top">
 
 ### 𝚂𝚃𝙰𝙲𝙺
@@ -12,7 +13,7 @@
 
 ### 𝚃𝙴𝙲𝙷𝙽𝙾𝙻𝙾𝙶𝙸𝙴𝚂
 
-`CMake` · `Qt` · `FastAPI` · `Redis` · `Docker`
+`FastAPI` · `Redis` · `Docker`
 
 `Git` · `Bash` · `Linux` · `Debian`
 
@@ -31,14 +32,17 @@
 <img src="./profile/stats.svg" width="100%">
 
 </td>
-</tr>
-</table>
 
-<br>
+</tr>
+
+<tr>
+<td colspan="2">
 
 ### 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂
 
-<table width="100%">
+</td>
+</tr>
+
 <tr>
 
 <td width="50%" valign="top">
@@ -67,24 +71,15 @@ Another project is on its way.
 </td>
 
 </tr>
-</table>
 
-<br>
+<tr>
+<td colspan="2">
 
 ### 𝙰𝙲𝚃𝙸𝚅𝙸𝚃𝚈
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-<img src="./profile/top-langs.svg" width="100%">
-
-</td>
-
-<td width="50%" valign="top">
 
 <img src="./profile/metrics.svg" width="100%">
 
 </td>
 </tr>
+
 </table>
