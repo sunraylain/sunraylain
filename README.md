@@ -22,8 +22,7 @@
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
-
-<td width="50%" valign="top">
+<td width="49%" valign="top">
 
 ### 𝚟𝚒𝚍𝚎𝚘_𝚊𝚗𝚊𝚕𝚢𝚜𝚎𝚛
 
@@ -36,12 +35,17 @@ and asynchronous video processing.
 
 </td>
 
-<td width="50%" valign="top" style="border-left: 1px solid #202830; padding-left: 32px;">
+<td width="2%" align="center" valign="middle">
+
+<img src="./profile/divider.svg" width="1" height="100">
+
+</td>
+
+<td width="49%" valign="top">
 
 ### 𝚗𝚘𝚝𝚑𝚒𝚗𝚐_𝚑𝚎𝚛𝚎_𝚢𝚎𝚝...
 
 </td>
-
 </tr>
 </table>
 
