@@ -3,27 +3,38 @@
 <table width="100%">
 <tr>
 
-<td width="62%" valign="top">
+<td width="58%" valign="top">
 
 **𝚂𝙾𝙵𝚃𝚆𝙰𝚁𝙴 𝙴𝙽𝙶𝙸𝙽𝙴𝙴𝚁𝙸𝙽𝙶**
 
 Software Engineering student focused on  
 **desktop application development**.
 
-I like building software from the inside out —
+I enjoy building software from the inside out —  
 architecture, systems, interfaces and the code between them.
 
 <br>
 
-`C` `C++` `Python` `Java`
+`C` · `C++` · `Python` · `Java`
 
-`Desktop Applications` · `Software Architecture` · `Systems`
+`Desktop Applications` · `Architecture` · `Systems`
+
+<br>
+
+**𝙵𝙾𝙲𝚄𝚂**
+
+Desktop software  
+Application architecture  
+System design  
+Clean and maintainable code
 
 </td>
 
-<td width="38%" valign="top">
+<td width="42%" valign="top">
 
-<img src="./profile/metrics.svg" width="100%">
+**𝚂𝚃𝙰𝚃𝚂**
+
+<!-- stats will go here -->
 
 </td>
 
@@ -43,8 +54,8 @@ architecture, systems, interfaces and the code between them.
 
 **Video Summarizer**
 
-A desktop-oriented application for  
-processing and working with video content.
+A project focused on processing  
+and working with video content.
 
 `Python` · `FastAPI` · `Redis` · `Docker`
 
@@ -56,8 +67,8 @@ processing and working with video content.
 
 **Desktop Applications**
 
-Experiments and applications focused on  
-software architecture and system design.
+Experiments and applications focused  
+on architecture, interfaces and system design.
 
 `C++` · `Python` · `Java`
 
@@ -76,6 +87,6 @@ software architecture and system design.
 
 <br>
 
-**𝙾𝚃𝙷𝙴𝚁 𝙸𝙽𝚃𝙴𝚁𝙴𝚂𝚃𝚂**
+**𝙸𝙽𝚃𝙴𝚁𝙴𝚂𝚃𝚂**
 
 `Electronic Music` · `Sound Design` · `Creative Coding`
