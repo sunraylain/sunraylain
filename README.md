@@ -1,6 +1,6 @@
 # 𝙷𝚎𝚕𝚕𝚘, 𝙸 𝚊𝚖 𝚂𝚞𝚗𝚛𝚊𝚢𝚕𝚊𝚒𝚗
 
-<img align="right" width="47%" src="./profile/profile-stats.svg">
+<img align="right" width="47%" src="./profile/profile-stats.svg">\
 <img align="right" width="47%" src="./profile/profile-languages.svg">
 
 ### 𝚂𝚃𝙰𝙲𝙺
