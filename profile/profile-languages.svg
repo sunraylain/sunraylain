@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
-            fill: #D8D1C5;
+            fill: #d3b692;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .lang-name {
-      font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #B7C0C8;
+      font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c5cdd3;
     }
     .stagger {
       opacity: 0;
@@ -121,9 +121,9 @@
           y="0.5"
           rx="4.5"
           height="99%"
-          stroke="#0D1117"
+          stroke="#e4e2e2"
           width="299"
-          fill="#0D1117"
+          fill="#1b2932"
           stroke-opacity="0.0"
         />
 
