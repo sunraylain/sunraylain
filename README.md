@@ -25,13 +25,12 @@
 
 <td width="48%" align="center" valign="top">
 
-### 𝚟𝚒𝚍𝚎𝚘_𝚜𝚞𝚖𝚖𝚊𝚛𝚒𝚣𝚎𝚛
+### 𝚟𝚒𝚍𝚎𝚘_𝚊𝚗𝚊𝚕𝚢𝚜𝚎𝚛
 
 Python · Docker · Redis · Faster-Whisper
 
-Speech transcription and video processing pipeline.
-Uploads a video, processes it asynchronously and
-generates a timestamped result with extracted highlights.
+A video analysis application for speech transcription
+and asynchronous video processing.
 
 `Python` `FastAPI` `Docker` `Redis` `RQ`
 
@@ -43,16 +42,7 @@ generates a timestamped result with extracted highlights.
 
 <td width="48%" align="center" valign="top">
 
-### 𝚊𝚞𝚍𝚒𝚘_𝚍𝚎𝚟
-
-C · C++ · DSP · VST · Embedded
-
-Experiments with digital audio processing,
-signal routing and software instruments.
-Focused on the intersection of low-level systems,
-sound and electronic music hardware.
-
-`C` `C++` `DSP` `VST` `ESP32`
+### 𝚗𝚘𝚝𝚑𝚒𝚗𝚐_𝚑𝚎𝚛𝚎_𝚢𝚎𝚝...
 
 </td>
 
