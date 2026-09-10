@@ -20,33 +20,15 @@
 
 ## 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-**`01`**
+**`01` Video Summarizer**     ·     **`02` Nothing here yet**
 
-### Video Summarizer
+A project focused on processing      ·  Another project is on its way
 
-A project focused on processing and working with video content
+`Python` · `FastAPI` · `Redis` · `Docker`  ·  `coming soon`
 
-`Python` · `FastAPI` · `Redis` · `Docker`
-
-</td>
-
-<td width="50%" valign="top">
-
-**`02`**
-
-### Nothing here yet
-
-Another project is on its way
-
-`coming soon`
-
-</td>
-</tr>
-</table>
+</div>
 
 ## 𝙰𝙲𝚃𝙸𝚅𝙸𝚃𝚈
 
