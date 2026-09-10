@@ -22,11 +22,11 @@
 
 <div align="center">
 
-**`01` Video Summarizer**     ·     **`02` Nothing here yet**
+**`01` Video Summarizer**   ·   **`02` Nothing here yet**
 
-A project focused on processing      ·  Another project is on its way
+A project focused on processing   ·   Another project is on its way
 
-`Python` · `FastAPI` · `Redis` · `Docker`  ·  `coming soon`
+`Python` · `FastAPI` · `Redis` · `Docker` · `coming soon`
 
 </div>
 
