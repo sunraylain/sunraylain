@@ -15,28 +15,28 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - uses: cicirello/user-statistician@v1
+      - name: Generate profile statistics
+        uses: readme-tools/github-readme-stats-action@v1
         with:
-          image-file: profile/profile-stats.svg
-          include-title: false
-          colors: "#0D1117 #202830 #8FAEA6 #D8D1C5 #B7C0C8"
-          max-languages: 6
-          animated-language-chart: false
-          image-width: 470
-          category-order: repositories, contributions, languages
-          hide-keys: >-
-            general,
-            starredBy,
-            forkedBy,
-            watchedBy,
-            templates,
-            archived,
-            private
-          top-icon: none
-          border-radius: 0
-          show-border: false
-          locale: en
-          commit-and-push: true
+          card: stats
+          options: >-
+            username=${{ github.repository_owner }}&
+            show_icons=true&
+            bg_color=0D1117&
+            title_color=D8D1C5&
+            text_color=B7C0C8&
+            icon_color=8FAEA6&
+            border_color=202830&
+            hide_border=true&
+            border_radius=0&
+            locale=en
+          path: profile/profile-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/profile-stats.svg
+          git commit -m "update profile statistics" || exit 0
+          git push
