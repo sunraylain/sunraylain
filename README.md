@@ -2,8 +2,7 @@
 
 <table width="100%">
 <tr>
-
-<td width="58%" valign="top">
+<td width="50%" valign="top">
 
 **𝚂𝙾𝙵𝚃𝚆𝙰𝚁𝙴 𝙴𝙽𝙶𝙸𝙽𝙴𝙴𝚁𝙸𝙽𝙶**
 
@@ -27,14 +26,11 @@ architecture, systems, interfaces and the code between them.
 
 </td>
 
-<td width="42%" valign="top">
+<td width="50%" valign="top">
 
-**𝚂𝚃𝙰𝚃𝚂**
-
-<!-- GitHub stats -->
+<img src="./profile/stats.svg" width="100%">
 
 </td>
-
 </tr>
 </table>
 
@@ -87,3 +83,23 @@ on architecture, interfaces and system design.
 **𝙸𝙽𝚃𝙴𝚁𝙴𝚂𝚃𝚂**
 
 `Electronic Music` · `Sound Design` · `Creative Coding`
+
+<br>
+
+<table width="100%">
+<tr>
+
+<td width="65%" valign="top">
+
+<img src="./profile/metrics.svg" width="100%">
+
+</td>
+
+<td width="35%" valign="top">
+
+<img src="./profile/top-langs.svg" width="100%">
+
+</td>
+
+</tr>
+</table>
