@@ -1,26 +1,104 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: profile-update
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      # ─────────────────────────────────────
+      # Main statistics card
+      # ─────────────────────────────────────
+
+      - name: Generate stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: >-
+            username=sunraylain&show_icons=true&hide_title=true&hide_rank=true&include_all_commits=true&bg_color=0D1117&title_color=D8D1C5&text_color=B7C0C8&icon_color=8FAEA6&border_color=202830&border_radius=6
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ─────────────────────────────────────
+      # Detailed profile statistics
+      # ─────────────────────────────────────
+
+      - name: Generate profile statistics
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: profile/profile-stats.svg
+          include-title: false
+
+          colors: "#0D1117 #202830 #8FAEA6 #D8D1C5 #B7C0C8"
+
+          max-languages: 6
+          animated-language-chart: false
+
+          image-width: 470
+
+          category-order: repositories, contributions, languages
+
+          hide-keys: >-
+            general,
+            starredBy,
+            forkedBy,
+            watchedBy,
+            templates,
+            archived,
+            private
+
+          top-icon: none
+          border-radius: 6
+          show-border: true
+
+          locale: en
+          commit-and-push: false
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ─────────────────────────────────────
+      # Recent coding habits
+      # ─────────────────────────────────────
+
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-          base: header
+          base: ""
           output_action: none
+
           config_output: svg
           config_display: large
           config_timezone: Europe/London
+          config_padding: 0
 
           config_order: >-
-            base.header,
             habits
-
-          # ───────────────────────────────
-          # Recent coding habits
-          # ───────────────────────────────
 
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
+
           plugin_habits_facts: no
 
           plugin_habits_charts: yes
@@ -30,20 +108,9 @@
           plugin_habits_languages_limit: 3
           plugin_habits_languages_threshold: 1%
 
-          # ───────────────────────────────
-          # Custom palette
-          # ───────────────────────────────
-
           extras_css: |
             svg {
               background: #0D1117 !important;
-            }
-
-            h1,
-            h2,
-            h3 {
-              color: #D8D1C5 !important;
-              font-family: monospace !important;
             }
 
             text {
@@ -51,27 +118,56 @@
             }
 
             .text {
-              color: #B7C0C8 !important;
               fill: #B7C0C8 !important;
             }
 
             .text-muted {
-              color: #6F7D87 !important;
               fill: #6F7D87 !important;
             }
 
             .field {
-              color: #B7C0C8 !important;
               fill: #B7C0C8 !important;
             }
 
             .title {
-              color: #D8D1C5 !important;
               fill: #D8D1C5 !important;
             }
 
-            rect,
-            path,
-            circle {
-              stroke: #202830 !important;
+            h1,
+            h2,
+            h3 {
+              fill: #D8D1C5 !important;
+              color: #D8D1C5 !important;
+              font-family: monospace !important;
             }
+
+      # ─────────────────────────────────────
+      # Move generated metrics
+      # ─────────────────────────────────────
+
+      - name: Move metrics
+        run: |
+          mkdir -p profile
+          cp /metrics_renders/metrics.svg profile/metrics.svg
+
+      # ─────────────────────────────────────
+      # Commit generated SVGs
+      # ─────────────────────────────────────
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/*.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "update profile cards"
+
+          git pull --rebase origin main
+
+          git push origin main
