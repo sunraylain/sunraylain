@@ -1,6 +1,6 @@
 # 𝙷𝚎𝚕𝚕𝚘, 𝙸 𝚊𝚖 𝚂𝚞𝚗𝚛𝚊𝚢𝚕𝚊𝚒𝚗
 
-<img align="right" width="46%" src="./profile/stats.svg">
+<img align="right" width="47%" src="./profile/profile-stats.svg">
 
 ### 𝚂𝚃𝙰𝙲𝙺
 
@@ -20,8 +20,6 @@
 
 ## 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂
 
-<img align="right" width="46%" src="./profile/profile-stats.svg">
-
 **`01`**
 
 ### Video Summarizer
@@ -31,7 +29,7 @@ and working with video content
 
 `Python` · `FastAPI` · `Redis` · `Docker`
 
-<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **`02`**
 
