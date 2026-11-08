@@ -4,7 +4,6 @@
 
 <blockquote>
   <h1>𝙷𝚎𝚕𝚕𝚘, 𝙸 𝚊𝚖 𝚂𝚞𝚗𝚛𝚊𝚢𝚕𝚊𝚒𝚗</h1>
-  <p>Software Engineering student focused on desktop application development.</p>
   <p>
     <b>Languages</b><br>
     <code>C</code> · <code>C++</code> · <code>Python</code> · <code>Java</code>
